@@ -15,4 +15,8 @@ Part 2
 1. Overall output of model, trained using a regular MSE cost function, or L
 2. Output of bottleneck layer, trained using the dstiance between the current code and it's constellation target, or R, multiplied by lambda
 
+I made a visualation of a custom SAE architecture with multiple outputs in TensorFlow, which is shown here:
+![image](https://github.com/Zain3/SAE-and-Custom-Penalty-Function-for-KMNIST/assets/70613917/57eebff6-aa48-4926-bad5-3af15607c25f)
+
+
 
