@@ -3,6 +3,7 @@ Using an SAE, then SAE with Custom Penalty Function, to classify the KMNIST Data
 
 Part 1- Using SAE to classify KMNIST, then injecting noise
 * Used an SAE, in which we pass the codes (output of the middle bottleneck layer) into a MLP classifier
+* Comparing the MSE cost function to the Correntropy (CE) cost function in the noise scenario
 
 Part 2- Using SAE to classify KMNIST, using the cost function J_custom = L + lambda*R
 * Used a custom loss function for the above SAE, where it's a linear combination of MSE and the Euclidean distance of the current codes to its constellation target (with the goal of minimizing their distance)- the constellation targets are targets we create BEFOREHAND, and place them as far away apart as possible (in space of codes), such that they'd be MAXIMALLY DISCRIMINITIVE!
