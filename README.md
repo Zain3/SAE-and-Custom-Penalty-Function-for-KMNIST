@@ -19,5 +19,7 @@ Using an SAE, then SAE with Custom Penalty Function, to classify the KMNIST Data
 I made a visualation of a custom SAE architecture with multiple outputs in TensorFlow, which is shown here:
 ![image](https://github.com/Zain3/SAE-and-Custom-Penalty-Function-for-KMNIST/assets/70613917/57eebff6-aa48-4926-bad5-3af15607c25f)
 
+If you look in the code for Part 2, you can see that "model_output" and "bottleneck_layer" are layers I train separately, with their own loss functions
+
 
 
