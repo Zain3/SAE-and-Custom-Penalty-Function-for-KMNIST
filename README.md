@@ -11,4 +11,8 @@ Part 2
 
 * ![image](https://github.com/Zain3/SAE-and-Custom-Penalty-Function-for-KMNIST/assets/70613917/0ea3a6f5-7578-44eb-b10d-6d90a98093c8)
 
+* Where the modified SAE has 2 outputs that train the SAE in TWO DIFFERENT ways:
+1. Overall output of model, trained using a regular MSE cost function, or L
+2. Output of bottleneck layer, trained using the dstiance between the current code and it's constellation target, or R, multiplied by lambda
+
 
